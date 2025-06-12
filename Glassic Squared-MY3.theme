@@ -1,0 +1,56 @@
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_Glassic Squared
+DisplayName=Glassic Squared MY3
+SetLogonBackground=0
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\aero_working.ani
+Arrow=%SystemRoot%\cursors\aero_arrow.cur
+Crosshair=
+Hand=%SystemRoot%\cursors\aero_link.cur
+Help=%SystemRoot%\cursors\aero_helpsel.cur
+IBeam=
+No=%SystemRoot%\cursors\aero_unavail.cur
+NWPen=%SystemRoot%\cursors\aero_pen.cur
+SizeAll=%SystemRoot%\cursors\aero_move.cur
+SizeNESW=%SystemRoot%\cursors\aero_nesw.cur
+SizeNS=%SystemRoot%\cursors\aero_ns.cur
+SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
+SizeWE=%SystemRoot%\cursors\aero_ew.cur
+UpArrow=%SystemRoot%\cursors\aero_up.cur
+Wait=%SystemRoot%\cursors\aero_busy.ani
+DefaultValue=Windows Aero
+DefaultValue.MUI=@main.cpl,-1020
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\Glassic\Wallpapers\
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[VisualStyles]
+Path=%SystemRoot%\Resources\Themes\Glassic\Glassic Squared.msstyles
+Composition=0
+ColorStyle=NormalColor
+Size=NormalSize
+ColorizationColor=0x6B74B8FC
+Transparency=1
+;;;;my:
+SystemMode=Light
+;;;;
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=@%SystemRoot%\System32\mmres.dll,-800
+
+[Slideshow]
+
+Interval=900000
+Shuffle=1
+ImagesRootPath=%SystemRoot%\Resources\Themes\Glassic\Wallpapers\
